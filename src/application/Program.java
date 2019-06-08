@@ -47,8 +47,8 @@ public class Program {
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Invalid position");
-			e.printStackTrace();
-			sc.next();
+			//e.printStackTrace(); // test with printStackTrace()
+			//sc.next();
 		}
 		
 		sc.close();
